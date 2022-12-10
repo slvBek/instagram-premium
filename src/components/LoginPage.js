@@ -42,7 +42,7 @@ class LoginPage extends Component {
                            <div>
                                <div className="loginpage_rightcomponent">
                                    <img className="pngwing.png" src={in_logo} style={{width: "300px"}}/>
-                                   <img className="logoinsta.png" src={insta_logo} style={{position: "absolute", width: "130px", right: "552px", top: "93px"}}/>
+                                   <img className="logoinsta.png" src={insta_logo} style={{position: "absolute", width: "130px", right: "595px", top: "93px"}}/>
                                    <div className="loginPage__signin">
 
                                      {
