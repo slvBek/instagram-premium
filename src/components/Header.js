@@ -92,14 +92,14 @@ function Header() {
           <PlusCircleIcon onClick={toggleAddPost} className="Nav__Icon" style={{position: "absolute", top: "230px", left: "30px"}} />
           <HeartIcon className="Nav__Icon" style={{position: "absolute", top: "270px", left: "30px"}} />
           {user ? (
-            <UserAvatarContainer style={{position: "absolute", top: "560px", left: "20px"}}>
+            <UserAvatarContainer style={{position: "absolute", top: "670px", left: "20px"}}>
               <img
                 src={bbbb}
                 alt="Settings"
                 onClick={() => setIsOpen(!isOpen)}
               />
               {isOpen && (
-                <UserAvatarPopupContainer ref={modalContentRef} style={{position: "absolute", top: "-140px", left:"10px", width:"190px"}}>
+                <UserAvatarPopupContainer ref={modalContentRef} style={{position: "absolute", top: "-145px", left:"10px", width:"210px"}}>
                   <section onClick={visitProfile}>
                     <UserCircleIcon className="Nav__Icon" />
                     <p>Profile</p>
